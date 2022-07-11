@@ -1,0 +1,33 @@
+body{
+    margin:auto 0;
+}
+
+.navbarLinks {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    background-color: #0D0D0D;
+    align-items: center;
+    min-height: 60px;
+}
+
+.FontWgh{
+    font-weight: bold;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.toRight{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 5px;
+}
+
+a {
+    color: #F2F1F0;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+

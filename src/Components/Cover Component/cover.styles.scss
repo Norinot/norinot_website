@@ -1,0 +1,92 @@
+.cover-container {
+    display: flex;
+    max-width: 100%;
+    min-height: 100%;
+}
+ul {
+    padding: 0;
+    margin-top: 15%;
+}
+
+li {
+    color: #F2F1F0;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.pdng-li {
+    padding-bottom: 10%;
+}
+
+.bold-name{
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.left-nav{
+    min-width: 450px;
+    max-height: 100%;
+    background-color: #0D0D0D;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    place-items: center;
+}
+
+.background-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #F2F2F2;
+}
+
+.bottom-left-text{
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.bottom-left-text-low{
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+    font-size:40px;
+    font-weight: bold;
+}
+
+.background-div img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+// Profile picture
+
+.profile-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+}
+
+
+
+p {
+    margin: auto 0;
+}
+
+.download-btn {
+    border: none;
+    background-color:#F2F1F0;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.download-btn a {
+    color: #0D0D0D !important;
+    padding: 0;
+}
