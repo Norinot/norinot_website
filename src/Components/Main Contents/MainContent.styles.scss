@@ -1,0 +1,23 @@
+.mainContents-container {
+    background-color: #C4C4C4;
+    ul{
+        text-align: left;
+        margin-top: 0;
+        li{
+            text-align: left;
+            color: #0D0D0D;
+        }
+    }
+}
+
+.subcontainer-contents{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-gap: 20rem;
+}
+
+.grid-break{
+    break-after: auto;
+}

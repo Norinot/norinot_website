@@ -1,4 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: auto 0;
   font-family: 'Dosis', sans-serif;
+  overflow-y: scroll
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

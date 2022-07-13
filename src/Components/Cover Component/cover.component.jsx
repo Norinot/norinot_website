@@ -25,7 +25,7 @@ const Cover = () => {
                 </div>
             </div>
             <div className='background-div'>
-                <img src={BackgroundPicture}/>
+                <img src={BackgroundPicture} className='background-pic'/>
                 <div className='bottom-left-text'>HELLO I'M <br/> Bernáth Márk Bence</div>
                 <div className='bottom-left-text-low'>SOFTWARE DEVELOPER & FRONTEND DEVELOPER</div>
             </div>

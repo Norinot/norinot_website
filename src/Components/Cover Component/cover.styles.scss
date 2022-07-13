@@ -1,7 +1,7 @@
 .cover-container {
     display: flex;
-    max-width: 100%;
-    min-height: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
 }
 ul {
     padding: 0;
@@ -26,6 +26,8 @@ li {
     padding-top: 20px;
 }
 
+
+
 .left-nav{
     min-width: 450px;
     max-height: 100%;
@@ -41,12 +43,13 @@ li {
     align-items: center;
     overflow: hidden;
     color: #F2F2F2;
+    position: relative;
 }
 
 .bottom-left-text{
     position: absolute;
     bottom: 15%;
-    left: 25%;
+    left: 5vh;
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 30px;
@@ -55,14 +58,20 @@ li {
 .bottom-left-text-low{
     position: absolute;
     bottom: 8%;
-    left: 25%;
+    left: 5vh;
     font-size:40px;
     font-weight: bold;
 }
 
+
 .background-div img {
     min-width: 100%;
     min-height: 100%;
+}
+
+.background-pic{
+    filter: blur(3px);
+    transform: scale(1.1);
 }
 
 // Profile picture

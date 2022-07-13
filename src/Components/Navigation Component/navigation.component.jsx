@@ -1,15 +1,14 @@
 import './navigation.styles.scss';
-import logo from '../../images/profile.png';
-
 
 const Navbar = () => {
     return(
         <div className='navbarLinks'>
-            <a className='FontWgh'>Norinot</a>
+            <div id='home'></div>
+            <a className='FontWgh' href='#root'>Norinot</a>
             <div className='toRight'>
-                <a href='#'>Home</a>
-                <a href='#'>About</a>
-                <a href='#'>Contact</a>
+                <a href='#root'>Home</a>
+                <a href='#about'>About</a>
+                <a href='#contact'>Contact</a>
             </div>
         </div>  
     );

@@ -1,0 +1,31 @@
+
+.about-container {
+    color: #F2F2F2;
+    display: grid;
+    grid-template-rows: minmax(20px, auto)1fr;
+    background-color: #313237;
+    margin: 0;
+    h1 {
+        letter-spacing: 3px;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+    }
+}
+span{
+    font-size: 1.3em;
+    font-style: italic;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 4em;
+    text-align: center;
+    letter-spacing: 1px;
+    .anchor-small {
+        padding: 0;
+        text-decoration: none;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+}
